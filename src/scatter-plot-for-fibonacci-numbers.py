@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
-import 
-x = range(0,10)
-y = 
+import fibonacci
+x = [i for i in range(11)]
+y = [fibonacci.get(n) for n in x]
 plt.scatter(x, y)
-plt.savefig("scatter-plot-of-fibonacci-numbers")
+plt.savefig("../tex/scatter-plot-of-fibonacci-numbers.pdf")
